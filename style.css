@@ -1,0 +1,90 @@
+.bg-main{
+  background-color: rgb(207, 164, 171);
+}
+
+.bg-menu{
+  background-color: rgb(230, 217, 217);
+  border: 2px solid rgb(68, 47, 20);
+  border-top-right-radius: 2%;
+  border-bottom-right-radius:2%;
+}
+
+.bg-order{
+  background-color: rgba(216, 119, 119, 0.938)
+}
+.text-menu{
+  font-family: 'Dancing Script', cursive;
+  color: rgb(68, 47, 20);
+}
+
+.ice-cream-item{
+  position: relative;
+  cursor: pointer;
+}
+
+.ice-cream-item:hover{
+  transition: all .1s ease;
+  transform: scale(1.01, 1.01)
+}
+
+.ice-cream-item img{
+  object-position: center;
+  object-fit: cover;
+  height: 15em;
+  width: 100%;
+  border: 2px solid rgb(170, 92, 92);
+}
+
+.vessels-item{
+  position: relative;
+  cursor: pointer;
+}
+
+.vessels-item:hover{
+  transition: all .1s ease;
+  transform: scale(1.01, 1.01)
+}
+
+.vessels-item img{
+  object-position:center;
+  object-fit: cover;
+  height: 15em;
+  width: 100%;
+  border: 2px solid rgb(170, 92, 92);
+}
+
+
+.name{
+  background-color: rgba(221, 103, 103, 0.938);
+  position: absolute;
+  top: 0;
+  width: 75%;
+  border-radius: 5%;
+  border: 2px solid rgb(170, 92, 92);
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+
+.price{
+  background-color: rgba(221, 103, 103, 0.938);
+  position: absolute;
+  bottom: 0;
+  width:25%;
+  border-radius: 10%;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 2px solid rgb(170, 92, 92);
+}
+
+.order-side{
+  border: 2px solid rgb(68, 47, 20);
+  border-top-left-radius: 3%;
+  border-bottom-left-radius:3%;
+}
+
+
+.order-head{
+  border-bottom: 2px solid rgb(68, 47, 20);
+}
